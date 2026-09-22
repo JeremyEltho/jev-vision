@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# secrets
+.env
+
+# model weights / downloaded artifacts
+*.pt
+*.onnx
+weights/
+
+# editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# test artifacts
+.pytest_cache/
+.coverage
